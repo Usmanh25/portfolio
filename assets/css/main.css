@@ -131,11 +131,12 @@ input, select, textarea {
 	}
 
 		h2.alt {
-			color: #888;
+			color: white;
 		}
-
-			h2.alt strong {
-				color: #666;
+		
+		h2.alt strong {
+				font-weight: bold;
+				color: white;
 			}
 
 	h3 {
@@ -2247,8 +2248,14 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				color: white;
+				background-image: url("../../images/SFSkyline.jpg");
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+				/* background-color: red; */
+				width: 100%;
+				height: 650px;
 			}
 
 			#main > section.two {
@@ -2309,7 +2316,7 @@ input, select, textarea {
 
 	}
 
-/* Narrow */
+/* Narrow alt*/
 
 	@media screen and (min-width: 961px) and (max-width: 1320px) {
 
@@ -2575,7 +2582,7 @@ input, select, textarea {
 
 	}
 
-/* Mobile */
+/* Mobile header > p */
 
 	@media screen and (max-width: 736px) {
 
