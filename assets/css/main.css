@@ -2678,7 +2678,7 @@ input, select, textarea {
 	.logos-div {
 		background-color: white;
 		padding-top: 20px;
-		width: 630px;
+		width: 650px;
 		border-radius: 10px;
 		text-align: center;
 		display: block;
@@ -2688,6 +2688,7 @@ input, select, textarea {
 		margin-bottom: 50px;
 	}
 
+	
 	.logo-image:hover {
 		height: 100px;
 		width: 100px;
@@ -2696,6 +2697,8 @@ input, select, textarea {
 	#language-id {
 		height: 96px;
 		width: 96px;
+		/* padding-left: 15px;
+		padding-right: 15px; */
 		display: inline-block;
 	}
 
@@ -2703,13 +2706,25 @@ input, select, textarea {
 		text-align: center;
 		color: black;
 		visibility:hidden;
+		font-size: 20px;
 	}
 	
 	#language-id:hover .language-name {
 		visibility:visible;
 		display: inline-block;
+
 	}
 
 	.skill-logos-row-1 {
 		padding-bottom: 20px;
+		margin-bottom: -10px;
+	}
+	.skill-logos-row-2 {
+		padding-bottom: 1px;
+		justify-content: space-evenly;
+	}
+
+	#second-p-tag {
+		margin-top: -20px;
+		color: white;
 	}
