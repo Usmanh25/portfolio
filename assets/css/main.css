@@ -130,15 +130,17 @@ input, select, textarea {
 	h2 {
 		font-size: 2em;
 		letter-spacing: -1px;
-		/* background-color: green; */
-		width: 50%;
+		-webkit-text-stroke-width: 0.2px;
+		-webkit-text-stroke-color: black;
 		text-align: center;
-		/* height: 100%; */
 	}
-
-		h2.alt {
+	
+	h2.alt {
 			color: white;
+			width: 40%;
 			font-weight: bolder;
+			backdrop-filter: blur(5px);
+			margin-left: 65px;
 		}
 		
 		h2.alt strong {
@@ -159,8 +161,9 @@ input, select, textarea {
 			margin: 1em 0 0 0;
 			margin-top: 60px;
 			font-weight: bold;
-			/* background-color: black; */
+			backdrop-filter: blur(5px);
 			width: 50%;
+			margin-left: 20px;
 			text-align: center
 		}
 
@@ -1012,6 +1015,7 @@ input, select, textarea {
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
+				justify-content: center;
 			}
 
 				.row > * {
@@ -1256,7 +1260,9 @@ input, select, textarea {
 				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
-				align-items: stretch;
+				text-align: center;
+				justify-items: center;
+				justify-content: center;
 			}
 
 				.row > * {
@@ -1443,6 +1449,7 @@ input, select, textarea {
 						}
 
 				.row {
+					justify-content: center;
 					margin-top: -20px;
 					margin-left: -20px;
 				}
@@ -2217,7 +2224,7 @@ input, select, textarea {
 					margin-left: 0;
 				}
 
-/* Main */
+/* Main#portfolio */
 
 	#main {
 		margin-left: 375px;
@@ -2239,6 +2246,7 @@ input, select, textarea {
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
 					color: inherit;
+					text-align: center;
 				}
 
 				#main > section.dark strong {
@@ -2275,7 +2283,7 @@ input, select, textarea {
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background: linear-gradient(#4611af, #74f5c1);
 			}
 
 			#main > section.three {
@@ -2655,10 +2663,53 @@ input, select, textarea {
 
 	}
 
-	.xyz {
+	.profilephoto {
 		height: 400px;
 		width: 400px;
 		margin-top: -428px;
 	}
 
-	/* green */
+	#portfolioheader {
+		color: white;
+		font-weight: bolder;
+		font-size: 65px;
+	}
+
+	.logos-div {
+		background-color: white;
+		padding-top: 20px;
+		width: 630px;
+		border-radius: 10px;
+		text-align: center;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -20px;
+		margin-bottom: 50px;
+	}
+
+	.logo-image:hover {
+		height: 100px;
+		width: 100px;
+	}
+
+	#language-id {
+		height: 96px;
+		width: 96px;
+		display: inline-block;
+	}
+
+	.language-name {
+		text-align: center;
+		color: black;
+		visibility:hidden;
+	}
+	
+	#language-id:hover .language-name {
+		visibility:visible;
+		display: inline-block;
+	}
+
+	.skill-logos-row-1 {
+		padding-bottom: 20px;
+	}
