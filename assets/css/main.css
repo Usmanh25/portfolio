@@ -51,6 +51,8 @@ table {
 	border-spacing: 0;
 }
 
+/* black */
+
 body {
 	-webkit-text-size-adjust: none;
 }
@@ -128,15 +130,21 @@ input, select, textarea {
 	h2 {
 		font-size: 2em;
 		letter-spacing: -1px;
+		/* background-color: green; */
+		width: 50%;
+		text-align: center;
+		/* height: 100%; */
 	}
 
 		h2.alt {
 			color: white;
+			font-weight: bolder;
 		}
 		
 		h2.alt strong {
 				font-weight: bold;
 				color: white;
+				border-bottom: 4px solid white;
 			}
 
 	h3 {
@@ -149,6 +157,11 @@ input, select, textarea {
 
 		header > p {
 			margin: 1em 0 0 0;
+			margin-top: 60px;
+			font-weight: bold;
+			/* background-color: black; */
+			width: 50%;
+			text-align: center
 		}
 
 	footer {
@@ -1951,6 +1964,7 @@ input, select, textarea {
 		padding: 0.75em 2.5em 0.75em 2.5em;
 		background-color: #8ebebc;
 		border: 0;
+		margin-top: 20px;
 		cursor: pointer;
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
 		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -2247,15 +2261,17 @@ input, select, textarea {
 				background-position: center center;
 			}
 
+			/* header > p */
+
 			#main > section.one {
 				color: white;
 				background-image: url("../../images/SFSkyline.jpg");
 				background-size: cover;
 				background-repeat: no-repeat;
 				background-position: center;
-				/* background-color: red; */
 				width: 100%;
 				height: 650px;
+
 			}
 
 			#main > section.two {
@@ -2638,3 +2654,11 @@ input, select, textarea {
 				}
 
 	}
+
+	.xyz {
+		height: 400px;
+		width: 400px;
+		margin-top: -428px;
+	}
+
+	/* green */
