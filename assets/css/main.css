@@ -2283,11 +2283,11 @@ input, select, textarea {
 			}
 
 			#main > section.two {
-				background: linear-gradient(#4611af, #74f5c1);
+				background: linear-gradient(#5e00a6, #180190);
 			}
-
+			
 			#main > section.three {
-				background-color: #ecf1f1;
+				background: linear-gradient(#180190, #5e00a6);
 			}
 
 			#main > section.four {
@@ -2771,16 +2771,6 @@ input, select, textarea {
 		visibility: visible;
 	}
 
-	.noisecloud {
-		color: black;
-		margin-top: 20px;
-		font-size: 35px;
-		font-weight: bolder;
-		border-bottom: 2px solid black;;
-	}
-
-
-
 	.image-fit2 {
 		width: 100%;
 		height: 100%;
@@ -2802,7 +2792,7 @@ input, select, textarea {
 
 	.image-fit2:hover{
 		transition: opacity 0.65s;
-		opacity: 0.35;
+		opacity: 0.28;
 	}
 
 	.image-fit2:hover .content2{
@@ -2814,45 +2804,167 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
-	.bigfishlittlefish {
-		color: black;
-		margin-top: 30px;
-		font-size: 35px;
-		font-weight: bolder;
-		border-bottom: 2px solid black;;
-	}
-
 	.main-projects-div {
-		background-color: red;
+		margin-top: 35px;
+		/* background-color: red; */
 		width: 100%;
 		height: 100%;
-		display: flexbox;
+		display: flex;
+		padding-right: 20px;
+		margin-left: 50px;
 	}
 
 	.newcontainer {
-		background-color: blueviolet;
-		height: 40%;
-		width: 40%;
-		/* display: block; */
-	}
-	
-	.newcontainer2 {
-		background-color: blue;
-		/* display: block; */
-		height: 40%;
-		width: 40%;
-	}
-	
+		background-color: black;
+		height: 80%;
+		width: 80%;
+		display: block;
+	}	
 	.project-info {
-		background-color: green;
-		display: inline block;
-		float: right;
+		/* background-color: mediumseagreen; */
+		display: inline-block;
+		text-align: center;
+		margin-top: 50px;
+		margin-right: 35px;
+		height: 100%;
+		width: 90%;
+	}
+
+	.project-info2 {
+		/* background-color: orange; */
+		display: inline-block;
+		margin-left: 50px;
+
+
+		text-align: center;
+		height: 100%;
+		width: 420px;
+	}
+
+	.noisecloud {
+		color: white;
+		font-style: italic;
+		margin-left: 75px;
 		margin-right: 75px;
-		margin-top: -650px;
-		width: 40%;
-		height: 400px;
+		margin-top: 20px;
+		font-size: 35px;
+		font-weight: bold;
+		border-bottom: 2px solid white;;
 	}
 	
+	.noisecloud-description {
+		color: white;
 
+		font-size: 20px;
+		font-weight: bolder;
+	}
+
+	.noisecloud-tech-used {
+		justify-content: center;
+		/* background-color: yellow; */
+		font-style: italic;
+		font-size: 24px;
+		margin-top: -20px;
+		margin-bottom: 10px;
+		margin-left: 95px;
+		margin-right: 95px;
+		font-weight: bold;
+		color: white;
+		border-bottom: 2px solid white;
+	}
+
+	.noisecloud-tech-used-image {
+		height: 50px;
+		width: 50px;
+	}
+
+	.main-projects-div2 {
+		margin-top: -100px;
+		/* background-color: pink; */
+		width: 100%;
+		height: 100%;
+		display: flex;
+		padding-right: 20px;
+		margin-left: 50px;
+
+	}
+
+
+	.newcontainer2 {
+		background-color: black;
+		margin-top: 50px;
+		height: 250px;
+		width: 380px;
+		display: block;
+	}
+
+
+	.bigfishlittlefish {
+		color: white;
+		margin-top: 20px;
+		font-style: italic;
+		margin-left: 75px;
+		margin-right: 75px;
+		font-size: 35px;
+		font-weight: bold;
+		border-bottom: 2px solid white;;
+	}
 	
+	.bigfishlittlefish-description {
+		color: white;
+
+		font-size: 20px;
+		font-weight: bolder;
+	}
+
+	.bigfishlittlefish-tech-used {
+		justify-content: center;
+		/* background-color: green; */
+		font-style: italic;
+
+		margin-top: -20px;
+		font-size: 24px;
+
+		margin-bottom: 10px;
+		margin-left: 95px;
+		margin-right: 95px;
+		font-weight: bold;
+		color: white;
+		border-bottom: 2px solid white;
+	}
+
+	.bigfishlittlefish-tech-used-image {
+		height: 50px;
+		width: 50px;
+	}
+
+	.noisecloud-code-link {
+		text-decoration: none;
+		border: none;
+		padding: 12px 40px;
+		font-size: 16px;
+		background-color: #8ebebc;
+		color: white;
+		border-radius: 5px;
+		box-shadow: 7px 6px 28px 1px rgb(8, 8, 8);
+		cursor: pointer;
+		outline: none;
+		transition: 0.2s all;
+		font-weight: bolder;
+	}
+	.bigfishlittlefish-code-link {
+		font-weight: bolder;
+		text-decoration: none;
+		border: none;
+		padding: 12px 40px;
+		font-size: 16px;
+		background-color: #8ebebc;
+		color: white;
+		border-radius: 5px;
+		box-shadow: 7px 6px 28px 1px rgb(8, 8, 8);
+		cursor: pointer;
+		outline: none;
+		transition: 0.2s all;
+	}
+
 
