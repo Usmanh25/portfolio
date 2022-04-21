@@ -2697,7 +2697,7 @@ input, select, textarea {
 	#language-id {
 		height: 96px;
 		width: 96px;
-		/* padding-left: 15px;
+		/* pa  image-fit dding-left: 15px;
 		padding-right: 15px; */
 		display: inline-block;
 	}
@@ -2728,3 +2728,131 @@ input, select, textarea {
 		margin-top: -20px;
 		color: white;
 	}
+
+
+
+
+
+
+	.newcontainer {
+		background-color: black;
+		height: 482px;
+	}
+
+	.image-fit {
+		width: 100%;
+		height: 100%;
+		opacity: 1;
+	}
+	
+	.image-fit > img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.content {
+		color: white;
+		font-size: 30px;
+		visibility: hidden;
+		font-weight: bolder;
+		transform: translateY(-350%);
+	}
+
+	.image-fit:hover{
+		transition: opacity 0.65s;
+		opacity: 0.15;
+	}
+
+	.image-fit:hover .content{
+		visibility: visible;
+	}
+
+	.image-fit:hover .newcontainer{
+		visibility: visible;
+	}
+
+	.noisecloud {
+		color: black;
+		margin-top: 20px;
+		font-size: 35px;
+		font-weight: bolder;
+		border-bottom: 2px solid black;;
+	}
+
+
+
+	.image-fit2 {
+		width: 100%;
+		height: 100%;
+		opacity: 1;
+	}
+	
+	.image-fit2 > img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.content2 {
+		color: white;
+		font-size: 30px;
+		visibility: hidden;
+		font-weight: bolder;
+		transform: translateY(-180%);
+	}
+
+	.image-fit2:hover{
+		transition: opacity 0.65s;
+		opacity: 0.35;
+	}
+
+	.image-fit2:hover .content2{
+		visibility: visible;
+	}
+
+	.image-fit2:hover .newcontainer2{
+		visibility: visible;
+		text-decoration: none;
+	}
+
+	.bigfishlittlefish {
+		color: black;
+		margin-top: 30px;
+		font-size: 35px;
+		font-weight: bolder;
+		border-bottom: 2px solid black;;
+	}
+
+	.main-projects-div {
+		background-color: red;
+		width: 100%;
+		height: 100%;
+		display: flexbox;
+	}
+
+	.newcontainer {
+		background-color: blueviolet;
+		height: 40%;
+		width: 40%;
+		/* display: block; */
+	}
+	
+	.newcontainer2 {
+		background-color: blue;
+		/* display: block; */
+		height: 40%;
+		width: 40%;
+	}
+	
+	.project-info {
+		background-color: green;
+		display: inline block;
+		float: right;
+		margin-right: 75px;
+		margin-top: -650px;
+		width: 40%;
+		height: 400px;
+	}
+	
+
+	
+
