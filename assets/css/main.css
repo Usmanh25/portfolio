@@ -2283,15 +2283,15 @@ input, select, textarea {
 			}
 
 			#main > section.two {
-				background: linear-gradient(#5e00a6, #180190);
+				background: linear-gradient(#14055d, #4d3f95);
 			}
 			
 			#main > section.three {
-				background: linear-gradient(#180190, #5e00a6);
+				background: linear-gradient(#4d3f95, aqua);
 			}
-
+			
 			#main > section.four {
-				background-color: #e8edec;
+				background: linear-gradient(aqua, rgb(255, 101, 101));
 			}
 
 /* Wide */
@@ -2697,7 +2697,8 @@ input, select, textarea {
 	#language-id {
 		height: 96px;
 		width: 96px;
-		/* pa  image-fit dding-left: 15px;
+		/* pa  image-f
+		gradient it dding-left: 15px;
 		padding-right: 15px; */
 		display: inline-block;
 	}
@@ -2787,7 +2788,7 @@ input, select, textarea {
 		font-size: 30px;
 		visibility: hidden;
 		font-weight: bolder;
-		transform: translateY(-180%);
+		transform: translateY(-195%);
 	}
 
 	.image-fit2:hover{
@@ -2804,9 +2805,11 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
+
+	/* PROJECTS DIV */
+
 	.main-projects-div {
 		margin-top: 35px;
-		/* background-color: red; */
 		width: 100%;
 		height: 100%;
 		display: flex;
@@ -2820,25 +2823,14 @@ input, select, textarea {
 		width: 80%;
 		display: block;
 	}	
+
 	.project-info {
-		/* background-color: mediumseagreen; */
 		display: inline-block;
 		text-align: center;
 		margin-top: 50px;
 		margin-right: 35px;
 		height: 100%;
 		width: 90%;
-	}
-
-	.project-info2 {
-		/* background-color: orange; */
-		display: inline-block;
-		margin-left: 50px;
-
-
-		text-align: center;
-		height: 100%;
-		width: 420px;
 	}
 
 	.noisecloud {
@@ -2854,14 +2846,12 @@ input, select, textarea {
 	
 	.noisecloud-description {
 		color: white;
-
 		font-size: 20px;
 		font-weight: bolder;
 	}
 
 	.noisecloud-tech-used {
 		justify-content: center;
-		/* background-color: yellow; */
 		font-style: italic;
 		font-size: 24px;
 		margin-top: -20px;
@@ -2874,66 +2864,6 @@ input, select, textarea {
 	}
 
 	.noisecloud-tech-used-image {
-		height: 50px;
-		width: 50px;
-	}
-
-	.main-projects-div2 {
-		margin-top: -100px;
-		/* background-color: pink; */
-		width: 100%;
-		height: 100%;
-		display: flex;
-		padding-right: 20px;
-		margin-left: 50px;
-
-	}
-
-
-	.newcontainer2 {
-		background-color: black;
-		margin-top: 50px;
-		height: 250px;
-		width: 380px;
-		display: block;
-	}
-
-
-	.bigfishlittlefish {
-		color: white;
-		margin-top: 20px;
-		font-style: italic;
-		margin-left: 75px;
-		margin-right: 75px;
-		font-size: 35px;
-		font-weight: bold;
-		border-bottom: 2px solid white;;
-	}
-	
-	.bigfishlittlefish-description {
-		color: white;
-
-		font-size: 20px;
-		font-weight: bolder;
-	}
-
-	.bigfishlittlefish-tech-used {
-		justify-content: center;
-		/* background-color: green; */
-		font-style: italic;
-
-		margin-top: -20px;
-		font-size: 24px;
-
-		margin-bottom: 10px;
-		margin-left: 95px;
-		margin-right: 95px;
-		font-weight: bold;
-		color: white;
-		border-bottom: 2px solid white;
-	}
-
-	.bigfishlittlefish-tech-used-image {
 		height: 50px;
 		width: 50px;
 	}
@@ -2952,6 +2882,67 @@ input, select, textarea {
 		transition: 0.2s all;
 		font-weight: bolder;
 	}
+
+	.main-projects-div2 {
+		margin-top: -100px;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		padding-right: 20px;
+		margin-left: 50px;
+	}
+
+	.newcontainer2 {
+		background-color: black;
+		margin-top: 65px;
+		height: 230px;
+		width: 380px;
+		display: block;
+	}
+
+	.project-info2 {
+		display: inline-block;
+		margin-left: 50px;
+		text-align: center;
+		height: 100%;
+		width: 420px;
+	}
+
+	.bigfishlittlefish {
+		color: white;
+		margin-top: 20px;
+		font-style: italic;
+		margin-left: 75px;
+		margin-right: 75px;
+		font-size: 35px;
+		font-weight: bold;
+		border-bottom: 2px solid white;;
+	}
+	
+	.bigfishlittlefish-description {
+		color: white;
+		font-size: 20px;
+		font-weight: bolder;
+	}
+
+	.bigfishlittlefish-tech-used {
+		justify-content: center;
+		font-style: italic;
+		margin-top: -20px;
+		font-size: 24px;
+		margin-bottom: 10px;
+		margin-left: 95px;
+		margin-right: 95px;
+		font-weight: bold;
+		color: white;
+		border-bottom: 2px solid white;
+	}
+
+	.bigfishlittlefish-tech-used-image {
+		height: 50px;
+		width: 50px;
+	}
+
 	.bigfishlittlefish-code-link {
 		font-weight: bolder;
 		text-decoration: none;
@@ -2967,4 +2958,20 @@ input, select, textarea {
 		transition: 0.2s all;
 	}
 
+	/* ABOUT ME */
+	.about-me {
+		color: white;
+		font-weight: bolder;
+		font-size: 65px;
+	}
 
+	.about-me-container {
+		padding-left: 25px;
+		padding-right: 25px;
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
+	 	-webkit-column-gap: 20px;
+		-moz-column-gap: 20px;
+		column-gap: 20px;
+	}
