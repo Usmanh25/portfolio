@@ -2966,6 +2966,7 @@ input, select, textarea {
 	}
 
 	.about-me-container {
+		color: black;
 		padding-left: 25px;
 		padding-right: 25px;
 		-webkit-column-count: 2;
