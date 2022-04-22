@@ -2283,15 +2283,15 @@ input, select, textarea {
 			}
 
 			#main > section.two {
-				background: linear-gradient(#14055d, #4d3f95);
+				background: linear-gradient(#14055d, #34006c);
 			}
 			
 			#main > section.three {
-				background: linear-gradient(#4d3f95, aqua);
+				background: linear-gradient(#34006c, #120164);
 			}
 			
 			#main > section.four {
-				background: linear-gradient(aqua, rgb(255, 101, 101));
+				background: linear-gradient(#120164, rgb(255, 101, 101));
 			}
 
 /* Wide */
@@ -2304,7 +2304,7 @@ input, select, textarea {
 				font-size: 17pt;
 			}
 
-		/* Header */
+		/* Head  footer er */
 
 			#header {
 				width: 300px;
@@ -2314,6 +2314,7 @@ input, select, textarea {
 
 			#footer {
 				margin-left: 300px;
+				background-color: rgb(255, 101, 101);
 			}
 
 		/* Main */
@@ -2396,6 +2397,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
+				background-color: rgb(255, 101, 101);
 				margin-left: 20%;
 			}
 
@@ -2579,6 +2581,7 @@ input, select, textarea {
 
 			#footer {
 				margin-left: 0;
+				background-color: rgb(255, 101, 101);
 			}
 
 		/* Main */
@@ -2967,11 +2970,11 @@ input, select, textarea {
 
 	.about-me-container {
 		text-align: justify;
-		/* text-align: right; */
+		/* text-align: gradient right; */
 		margin-top: 25px;
 		line-height: 1.5em;
 
-		color: black;
+		color: white;
 
 		font-size: 18px;
 		font-weight: bold;
