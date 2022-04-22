@@ -2966,13 +2966,26 @@ input, select, textarea {
 	}
 
 	.about-me-container {
+		text-align: justify;
+		/* text-align: right; */
+		margin-top: 25px;
+		line-height: 1.5em;
+
 		color: black;
-		padding-left: 25px;
-		padding-right: 25px;
+
+		font-size: 18px;
+		font-weight: bold;
+
+		padding-left: 100px;
+		padding-right: 100px;
+
 		-webkit-column-count: 2;
-		-moz-column-count: 2;
+		-webkit-column-gap: 100px;
+
+		/* -moz-column-count: 2; */
+		/* -moz-column-gap: 5px; */
+
+
 		column-count: 2;
-	 	-webkit-column-gap: 20px;
-		-moz-column-gap: 20px;
-		column-gap: 20px;
+		column-gap: 100px;
 	}
