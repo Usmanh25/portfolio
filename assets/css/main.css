@@ -2970,25 +2970,15 @@ input, select, textarea {
 
 	.about-me-container {
 		text-align: justify;
-		/* text-align: gradient right; */
 		margin-top: 25px;
 		line-height: 1.5em;
-
 		color: white;
-
 		font-size: 18px;
 		font-weight: bold;
-
 		padding-left: 100px;
 		padding-right: 100px;
-
 		-webkit-column-count: 2;
 		-webkit-column-gap: 100px;
-
-		/* -moz-column-count: 2; */
-		/* -moz-column-gap: 5px; */
-
-
 		column-count: 2;
 		column-gap: 100px;
 	}
