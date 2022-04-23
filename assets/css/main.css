@@ -2982,3 +2982,13 @@ input, select, textarea {
 		column-count: 2;
 		column-gap: 100px;
 	}
+
+	.contact-header {
+		color: white;
+		font-weight: bolder;
+		font-size: 65px;
+	}
+	
+	.contact-p {
+		color: white;
+	}
