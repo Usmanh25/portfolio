@@ -1,3 +1,1 @@
- # Portfolio
-
- https://usmanh25.github.io/portfolio/
+Deployed at https://usmanh25.github.io/portfolio/
