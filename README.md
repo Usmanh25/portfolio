@@ -1,3 +1,3 @@
 # Portfolio
 
-[Live Site](https://usmanh25.github.io/portfolio/)
+[Portfolio on Github Pages](https://usmanh25.github.io/portfolio/)
