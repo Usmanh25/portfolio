@@ -3185,10 +3185,10 @@ input, select, textarea {
 		-webkit-filter: drop-shadow(5px 5px 50px rgb(125, 33, 255));
 		filter: drop-shadow(5px 5px 50px rgb(255, 43, 43)); */
 	}
+	
 @media screen and (max-width: 850px) {
 	.about-me-container {
 		column-count: 1;
-		width: 100%;
 	}
 }
 
