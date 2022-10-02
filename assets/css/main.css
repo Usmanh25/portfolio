@@ -344,7 +344,8 @@ input, select, textarea {
 	}
 
 		header > p {
-			margin: 1em 0 0 0;
+			margin-top: 20px;
+			margin-bottom: 20px;
 			display: flex;
 			font-weight: bold;
 			backdrop-filter: blur(5px);
@@ -3175,8 +3176,8 @@ input, select, textarea {
 	}
 
 	.profilephoto {
-		height: 65%;
-		width: 65%;
+		height: 80%;
+		width: 80%;
 		border-radius: 15px;
 		box-shadow: 5px 5px 25px black;
 		-webkit-filter: drop-shadow(5px 5px 25px red);
@@ -3281,24 +3282,24 @@ input, select, textarea {
 	}
 }
 
-@media screen and (min-width: 460px) and (max-width: 550px) {
+@media screen and (min-width: 500px) and (max-width: 670px) {
 	.profilephoto {
-		height: 70%;
-		width: 70%;
+		height: 60%;
+		width: 60%;
 	}
 }
-@media screen and (min-width: 550px) and (max-width: 651px) {
-	.profilephoto {
-		height: 54%;
-		width: 54%;
-	}
-}
-@media screen and (min-width: 652px) and (max-width: 752px) {
+@media screen and (min-width: 651px) and (max-width: 851px) {
 	.profilephoto {
 		height: 100%;
 		width: 100%;
 	}
 }
+/* @media screen and (min-width: 652px) and (max-width: 752px) {
+	.profilephoto {
+		height: 100%;
+		width: 100%;
+	}
+} */
 
  
 /* test word :      black
