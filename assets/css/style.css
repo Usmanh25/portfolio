@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 15px auto;
   display: block;
   width: 75%;
-  box-shadow: 2px 2px 15px 2px white;
+  /* box-shadow: 2px 2px 15px 2px white; */
 }
 
 #header .profile h1 {
@@ -177,7 +177,6 @@ h1, h2, h3, h4, h5, h6 {
 #hero .hero-container {
   position: relative;
   z-index: 2;
-  min-width: 300px;
 }
 
 #hero h1 {
@@ -343,6 +342,58 @@ section {
   opacity: 1;
   bottom: 0;
 }
+
+/* makes portfolio items to be 2 per row */
+.portfolio-container .portfolio-item {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+@media (max-width: 768px) {
+  /* Stack on small screens */
+  .portfolio-container .portfolio-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* Portfolio items as flex columns */
+.portfolio-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Project title centered */
+.project-title {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Tech icons container */
+.tech-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+/* Tech icon images */
+.tech-icons-image {
+  width: 32px;
+  height: 32px;
+}
+
+/* Optional: make portfolio row uniform height */
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
 
 /*-----------------------------About--------------------------------------*/
 
